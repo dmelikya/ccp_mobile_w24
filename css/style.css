@@ -64,15 +64,17 @@ ul.nav li a.active{
 }
 h2{
     font-size: 30px;
-    font-family: 'Trattatello', Arial, Helvetica, sans-serif;
+    font-family: 'Trattatello', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     text-align: center;
 }
 h3{
     font-size: 20px;
-    font-family: 'Trattatello', Arial, Helvetica, sans-serif;
-    color: #000000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3f118e;
     text-align: center;
+    border-bottom-style: dotted;
+    border-color: #3f118e;
 }
 p{
     line-height: 1.5;
@@ -82,7 +84,7 @@ img{
     padding: 5px;
     display: block;
     margin: auto;
-    width: 50%;
+    width: 90%;
     border-radius: 20px;
 
 }
@@ -108,13 +110,13 @@ ol{
     padding: 10px;
     text-align: left;
     justify-content: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .gallery{
     display: grid;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 45% 45%;
     border: none;
     width: 100%;
     grid-gap: 5px;
@@ -126,7 +128,7 @@ ol{
 }
 .gallery-three{
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
     width: 100%;
     grid-gap: 1px;
     justify-content: center;
@@ -147,19 +149,19 @@ ol{
 }
 
 p{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     justify-content: center;
     text-align: left;
     display: block;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 body{
     background-color: #bbedf4;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     margin: 0;
     padding: 0;
@@ -184,7 +186,7 @@ main > div{
 
 .home{
     display: grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 90%;
     border: none;
     width: 100%;
     grid-gap: 5px;
